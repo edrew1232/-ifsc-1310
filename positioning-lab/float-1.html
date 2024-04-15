@@ -31,6 +31,17 @@
       margin-right: auto;
       margin-left: auto;
       text-shadow: 2px 2px #000;
+      overflow: hidden; 
+    }
+    .box {
+      float: left; 
+      width: 48%; 
+      margin: 1%; 
+      text-align: center;
+      padding: 20px; 
+      color: #FFF;
+      font-weight: bold;
+      text-shadow: 2px 2px #000;
     }
     #navy {
       background-color: #001f3f;
@@ -46,6 +57,7 @@
     }
     #footer {
       background-color: #666;
+      clear: both; 
     }
     h1 {
       color: #000;
@@ -55,12 +67,12 @@
   </style>
 </head>
 <body>
-  <h1>Float 1</h1>
+  <h1>Exercise</h1>
   <section id="wrapper">
-    <div id="navy">Navy</div>
-    <div id="teal">Teal</div>
-    <div id="blue">Blue</div>
-    <div id="aqua">Aqua</div>
+    <div class="box" id="navy">Navy</div>
+    <div class="box" id="teal">Teal</div>
+    <div class="box" id="blue">Blue</div>
+    <div class="box" id="aqua">Aqua</div>
     <div id="footer">Footer</div>
   </section>
 </body>
