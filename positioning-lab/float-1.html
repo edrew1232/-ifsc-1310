@@ -24,6 +24,13 @@
       text-align: center;
       line-height: 24px;
     }
+
+    .tile { 
+      width:370px;
+      height:125px;
+      float:left;
+      margin:0 0 20px 20px;
+    }
     #wrapper {
       background-color: #FFF;
       border: 1px solid #c0c0c0;
@@ -31,17 +38,7 @@
       margin-right: auto;
       margin-left: auto;
       text-shadow: 2px 2px #000;
-      overflow: hidden; 
-    }
-    .box {
-      float: left; 
-      width: 48%; 
-      margin: 1%; 
-      text-align: center;
-      padding: 20px; 
-      color: #FFF;
-      font-weight: bold;
-      text-shadow: 2px 2px #000;
+      padding-top:20px;
     }
     #navy {
       background-color: #001f3f;
@@ -57,7 +54,8 @@
     }
     #footer {
       background-color: #666;
-      clear: both; 
+      clear:both;
+      margin:20px;
     }
     h1 {
       color: #000;
@@ -69,10 +67,10 @@
 <body>
   <h1>Exercise</h1>
   <section id="wrapper">
-    <div class="box" id="navy">Navy</div>
-    <div class="box" id="teal">Teal</div>
-    <div class="box" id="blue">Blue</div>
-    <div class="box" id="aqua">Aqua</div>
+    <div id="navy" class="tile">Navy</div>
+    <div id="teal" class="tile">Teal</div>
+    <div id="blue" class="tile">Blue</div>
+    <div id="aqua" class="tile">Aqua</div>
     <div id="footer">Footer</div>
   </section>
 </body>
