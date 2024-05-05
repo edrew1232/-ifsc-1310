@@ -75,7 +75,7 @@ html {
     position: relative;
     border-radius: 15px;
   }
-  
+
   
   header.primary h1 {
     font-size: 3.2rem;
@@ -83,7 +83,19 @@ html {
     position: relative;
     color: #ffffff; /* White text */
   }
+  
+  header.primary h1 a {
+    color: #ffffff;
 
+    display: block;
+    width: 450px;
+    height: 70px;
+    margin: 0 auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 15px;
+  }
   
   header.primary h2 {
     font-family: 'Schibsted Grotesk', sans-serif; /* New font */
@@ -261,16 +273,6 @@ html {
   }
   #articles li {
     margin-bottom: 20px;
-  }
-  
-  /* ------------- Hero --------------- */
-  
-  #hero {
-    padding: 4em 0;
-    border-radius: 15px;
-    background-color: #1B2C38; /* Dark navy blue */
-    color: #ffffff; /* White text */
-    text-align: center;
   }
   
   /* ------------- Aside --------------- */
